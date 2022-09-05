@@ -362,7 +362,39 @@ a:hover {
     z-index: 2;
 }
 
+.title h2 {
+    max-width: 800px;
+    margin: 12px auto;
+    padding-inline: 40px;
+}
+
+.title-2 h2 {
+    max-width: 460px;
+    margin: 10px auto;
+}
+
+.quote {
+    max-width: 480px;
+    margin: 40px auto;
+    text-align: center;
+
+}
+
+.quote-citation {
+    margin: 0;
+    font-style: italic;
+    font-size: 18px;
+}
+
 @media (min-width: 768px) {
+    .title h2 {
+        max-width: 800px;
+        margin: 20px auto;
+    }
+    .title-2 h2 {
+        max-width: 460px;
+        margin: 10px auto;
+    }
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -677,7 +709,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -902,8 +934,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -951,6 +983,9 @@ h4 {
     .hero {
         padding: 50px 0;
     }
+
+
+
     .hero-nav {
         left: -1px;
         right: -1px;
